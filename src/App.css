@@ -1,0 +1,51 @@
+.pub,
+.formulario {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.formulario textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.formulario button {
+  background-color: cyan;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px;
+}
+.formulario input {
+  display: block;
+  width: 100%;
+}
+
+.mensagem{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background: green;
+  color: #000000
+}
+
+.fecharMensagem{
+  float: right;
+  cursor: pointer;
+}
+
+.editar, 
+.excluir {
+  background: #999;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.excluir{
+  margin-left: 5px;
+  background: red;
+}
